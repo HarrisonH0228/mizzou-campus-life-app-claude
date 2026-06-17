@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}Campus Map — Mizzou Campus Life{% endblock %}
+{% block extra_css %}
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <h1>Campus Map</h1>
+  <p>Click a landmark to see details. Drag to explore campus.</p>
+</div>
+
+<div id="map-container"></div>
+
+<div class="landmark-list">
+  <h2>Landmarks</h2>
+  <ul>
+    {% for item in data['items'] %}
+    <li data-lat="{{ item.lat }}" data-lng="{{ item.lng }}" class="landmark-item">
+      <strong>{{ item.name }}</strong> &mdash; {{ item.description }}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV/XN/WLaQ=" crossorigin=""></script>
+  <script id="map-data" type="application/json">{{ data['items'] | tojson }}</script>
+  <script src="{{ url_for('static', filename='js/map.js') }}"></script>
+{% endblock %}

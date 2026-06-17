@@ -1,0 +1,111 @@
+{
+  "last_updated": "2026-06-17",
+  "source": "https://map.missouri.edu",
+  "items": [
+    {
+      "name": "The Columns & Francis Quadrangle",
+      "lat": 38.9411,
+      "lng": -92.3278,
+      "category": "Landmark",
+      "description": "Six iconic Ionic limestone columns — all that remained after Academic Hall burned in 1892. The heart of campus and site of Tiger Walk, graduation photos, and countless Mizzou memories."
+    },
+    {
+      "name": "Jesse Hall",
+      "lat": 38.9409,
+      "lng": -92.3270,
+      "category": "Academic",
+      "description": "The main administrative building directly behind the Columns. Home to the Chancellor's office, large auditoriums, and lecture halls. The dome is a campus landmark."
+    },
+    {
+      "name": "Ellis Library",
+      "lat": 38.9405,
+      "lng": -92.3283,
+      "category": "Academic",
+      "description": "MU's main library with millions of volumes, individual and group study rooms, and research assistance. Extended hours during finals week. Bookmark Café is inside."
+    },
+    {
+      "name": "Memorial Union",
+      "lat": 38.9421,
+      "lng": -92.3280,
+      "category": "Student Services",
+      "description": "Central student hub with dining (Starbucks, Tiger Den food court), meeting rooms, the campus bookstore, and student organization offices. Tip your hat or whisper when passing through the arches — a Mizzou tradition honoring fallen soldiers."
+    },
+    {
+      "name": "MU Student Center",
+      "lat": 38.9397,
+      "lng": -92.3308,
+      "category": "Student Services",
+      "description": "Houses the Center for Student Involvement, Student Health & Well-Being offices (G202), Mizzou Market – Central, bowling lanes, and student organization space. One of the most-visited buildings on campus."
+    },
+    {
+      "name": "Memorial Stadium (Faurot Field)",
+      "lat": 38.9344,
+      "lng": -92.3334,
+      "category": "Athletics",
+      "description": "Home of Mizzou Tigers football and the Antlers student section. Capacity ~71,000. Also the traditional site for Painting the Rock M during Welcome Week."
+    },
+    {
+      "name": "Mizzou Arena",
+      "lat": 38.9371,
+      "lng": -92.3349,
+      "category": "Athletics",
+      "description": "Home of Mizzou Tigers men's and women's basketball. Also hosts concerts, convocations, and major campus events like First Roar during Welcome Week."
+    },
+    {
+      "name": "MizzouRec (Student Recreation Complex)",
+      "lat": 38.9388,
+      "lng": -92.3323,
+      "category": "Wellness",
+      "description": "Free for enrolled students. Includes cardio and weight rooms, indoor pools, a climbing wall, basketball courts, racquetball courts, group fitness classes, and outdoor equipment rentals."
+    },
+    {
+      "name": "Student Health Center",
+      "lat": 38.9393,
+      "lng": -92.3320,
+      "category": "Health",
+      "description": "Primary care and urgent care for MU students at 909 Hitt St. Same- or next-day appointments almost always available. Call 573-882-7481."
+    },
+    {
+      "name": "Mark Twain Hall",
+      "lat": 38.9445,
+      "lng": -92.3254,
+      "category": "Housing",
+      "description": "Park View neighborhood residence hall at 515 S. 5th St. The MARK on 5th Street all-you-care-to-eat dining hall is inside. Close to the College of Engineering and Peace Park."
+    },
+    {
+      "name": "Wolpers Hall",
+      "lat": 38.9390,
+      "lng": -92.3320,
+      "category": "Housing",
+      "description": "Truman Central neighborhood residence hall at 800 Hitt St. Across from MizzouRec. Central campus location close to the Student Center and Student Health Center."
+    },
+    {
+      "name": "Plaza 900 Dining Hall",
+      "lat": 38.9399,
+      "lng": -92.3263,
+      "category": "Dining",
+      "description": "The largest all-you-care-to-eat dining hall on campus at 900 Virginia Ave. Features the largest salad bar on campus, a grill, pizza, and Central Dairy ice cream. Mizzou Meals accepted."
+    },
+    {
+      "name": "Restaurants at Southwest",
+      "lat": 38.9349,
+      "lng": -92.3346,
+      "category": "Dining",
+      "description": "À la carte food hall at 502 Kentucky Blvd with six restaurants: Legacy Grill, Olive + Oil, 1•5•3 Salads & Soup, Tiger Deli, and 1839 Kitchen."
+    },
+    {
+      "name": "Peace Park",
+      "lat": 38.9449,
+      "lng": -92.3271,
+      "category": "Landmark",
+      "description": "A four-acre wooded retreat on the north edge of campus with the McAlester Bridge. A quiet escape for studying, relaxing, or taking a break from campus life."
+    },
+    {
+      "name": "Strickland Hall (Counseling Center)",
+      "lat": 38.9415,
+      "lng": -92.3295,
+      "category": "Health",
+      "description": "The MU Counseling Center is on the 4th floor. Free mental health services for enrolled students. Crisis line available 24/7 at 573-882-6601."
+    }
+  ]
+}

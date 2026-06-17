@@ -1,0 +1,48 @@
+{
+  "last_updated": "2026-06-17",
+  "source": "https://www.gocomotransit.com",
+  "items": [
+    {
+      "name": "GoCoMo Transit — Black Route (#1)",
+      "description": "One of two high-frequency 'connector' routes running a large north/south loop through the heart of Columbia. Runs in both directions and connects campus to downtown and north Columbia.",
+      "stops": ["MU Campus", "Downtown Columbia", "North Columbia"],
+      "hours": "Mon–Fri 6:25am–6:40pm | Sat 10am–6:40pm | Sun: No service",
+      "url": "https://www.gocomotransit.com"
+    },
+    {
+      "name": "GoCoMo Transit — Gold Route (#3)",
+      "description": "One of two high-frequency 'connector' routes running a large east/west loop through the city. High-frequency service in both directions. Connects campus to east and west Columbia.",
+      "stops": ["MU Campus", "Providence Road", "East Columbia", "West Columbia"],
+      "hours": "Mon–Fri 6:25am–6:40pm | Sat 10am–6:40pm | Sun: No service",
+      "url": "https://www.gocomotransit.com"
+    },
+    {
+      "name": "GoCoMo Transit — Neighborhood Routes (#2, #4, #5, #6)",
+      "description": "Four smaller neighborhood loop routes (Red, Orange, Blue, Green) serving areas not covered by the connector routes, including Lake of the Woods and Scott Blvd. Lower frequency than connector routes.",
+      "stops": ["Varies by route — see gocomotransit.com for maps"],
+      "hours": "Mon–Fri 6:25am–6:40pm | Sat 10am–6:40pm | Sun: No service",
+      "url": "https://www.gocomotransit.com"
+    },
+    {
+      "name": "GoCoMo Game Day Routes",
+      "description": "Special bus routes that run on Mizzou home football game days, providing extra service between campus, parking areas, and Memorial Stadium.",
+      "stops": ["Memorial Stadium", "Campus parking lots", "Downtown Columbia"],
+      "hours": "Game days only — schedule posted at gocomotransit.com",
+      "url": "https://www.gocomotransit.com"
+    },
+    {
+      "name": "Campus Parking",
+      "description": "Student parking permits are available for on-campus lots. Permit zones are enforced. Summer 2026 permits: Tier 1 lots $126, Tier 2 lots $60. Fall semester rates vary — check parking.missouri.edu for current pricing and lot maps.",
+      "stops": null,
+      "hours": "Enforcement hours vary by zone — check permit area signage",
+      "url": "https://parking.missouri.edu"
+    },
+    {
+      "name": "Bike Share — VeoRide",
+      "description": "Dockless e-bikes and e-scooters available throughout campus and downtown Columbia. Unlock via the VeoRide app. Low per-minute cost; a good option for short trips between class buildings.",
+      "stops": null,
+      "hours": "Available 24/7 (weather permitting)",
+      "url": "https://veoride.com"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "last_updated": "2026-06-17",
+  "source": "https://dining.missouri.edu/locations/",
+  "hours_notice": "Hours listed are current as of June 2026 and may differ during the academic year. Always verify at dining.missouri.edu before visiting.",
+  "items": [
+    {
+      "name": "Plaza 900",
+      "type": "Dining Hall",
+      "location": "900 Virginia Ave, Columbia, MO 65201",
+      "hours": "Lunch: Sun–Wed 11am–2pm | Dinner: Sun–Sat 4pm–6:30pm",
+      "meal_plan": true,
+      "notes": "The largest dining hall on campus. All-you-care-to-eat with the largest salad bar on campus (locally sourced hydroponic lettuce), burgers, chicken sandwiches, specialty pizzas, made-to-order eggs, and Central Dairy ice cream. Halal, vegan, and vegetarian options available."
+    },
+    {
+      "name": "The MARK on 5th Street",
+      "type": "Dining Hall",
+      "location": "Mark Twain Residence Hall, 515 S 5th St, Columbia, MO 65211",
+      "hours": "Check dining.missouri.edu for current hours",
+      "meal_plan": true,
+      "notes": "All-you-care-to-eat with a quieter, restaurant-style atmosphere. Features The Mark Deli (build-your-own stir fry and ramen bowls), pizza, a fresh salad bar, patty melts, and Central Dairy ice cream. Halal, vegan, and vegetarian options available. Tiger Cash also accepted."
+    },
+    {
+      "name": "Restaurants at Southwest",
+      "type": "Food Hall",
+      "location": "502 Kentucky Blvd, Columbia, MO 65201",
+      "hours": "Check dining.missouri.edu for current hours",
+      "meal_plan": false,
+      "notes": "À la carte food hall with six restaurants: Legacy Grill (burgers, quesadillas), Olive + Oil (pasta), 1•5•3 Salads & Soup, Tiger Deli (Philly sandwiches), and 1839 Kitchen (comfort foods). Bright, open seating area. Dining Dollars and Tiger Cash accepted."
+    },
+    {
+      "name": "Savor Kitchen",
+      "type": "Restaurant",
+      "location": "Johnston Hall, 1100 Rollins St, Columbia, MO 65211",
+      "hours": "Check dining.missouri.edu for current hours",
+      "meal_plan": false,
+      "notes": "Build-a-bowl concept with over 15,000 possible combinations of bases, proteins, and sauces. Also serves breakfast (thick-cut bacon, fluffy pancakes, acai bowls) and Grab & Go options. Certified Free From™ for all top-9 allergens — a great option for students with food allergies. Dining Dollars accepted."
+    },
+    {
+      "name": "Mizzou Market – Central",
+      "type": "Market",
+      "location": "MU Student Center, 901 Rollins St, Columbia, MO 65201",
+      "hours": "Mon–Thu 8am–5pm | Sun 9am–4pm",
+      "meal_plan": false,
+      "notes": "Convenience market stocking snacks, beverages, protein drinks, household essentials, and laundry supplies. Dining Dollars and Tiger Cash accepted."
+    },
+    {
+      "name": "Starbucks – Memorial Union",
+      "type": "Café",
+      "location": "Memorial Union, 9th & Rollins, Columbia, MO 65211",
+      "hours": "Check dining.missouri.edu for current hours",
+      "meal_plan": false,
+      "notes": "Full Starbucks menu. Tiger Cash and Dining Dollars accepted. Convenient central campus location."
+    },
+    {
+      "name": "Bookmark Café",
+      "type": "Café",
+      "location": "Ellis Library, Columbia, MO 65211",
+      "hours": "Check dining.missouri.edu for current hours",
+      "meal_plan": false,
+      "notes": "Café inside Ellis Library. Grab & Go items, coffee, and light snacks. Perfect for a study break without leaving the library. Dining Dollars accepted."
+    }
+  ]
+}

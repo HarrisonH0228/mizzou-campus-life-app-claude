@@ -1,0 +1,62 @@
+{
+  "last_updated": "2026-06-17",
+  "source": "https://wellbeing.missouri.edu",
+  "items": [
+    {
+      "name": "MU Student Health Center",
+      "location": "909 Hitt St., Columbia, MO 65211 (near MizzouRec)",
+      "hours": "Mon–Fri 8am–5pm",
+      "phone": "573-882-7481",
+      "url": "https://wellbeing.missouri.edu",
+      "notes": "Primary care clinic for enrolled MU students. Same- or next-day appointments are almost always available. Handles illness, injuries, immunizations, lab work, and referrals. Walk-ins accepted for urgent concerns."
+    },
+    {
+      "name": "Counseling Center",
+      "location": "4th Floor, Strickland Hall | Main office: G202 MU Student Center",
+      "hours": "Mon–Fri 8am–5pm | Crisis support: 24/7",
+      "phone": "573-882-6601",
+      "url": "https://wellbeing.missouri.edu/mental-health-services/",
+      "notes": "Free mental health services for enrolled students. Offers brief individual therapy, ~20 group counseling and skills classes per semester, and emergency crisis support. Call 24/7 to speak with an on-call clinician. Appointments typically available within 72 hours."
+    },
+    {
+      "name": "Wellness Resource Center",
+      "location": "G202 MU Student Center",
+      "hours": "Mon–Fri 8am–5pm",
+      "phone": "573-882-6601",
+      "url": "https://wellbeing.missouri.edu",
+      "notes": "Offers well-being coaching for stress and sleep management, substance use support, guided meditation sessions, and wellness programming. A great first stop if you're feeling overwhelmed but aren't sure what kind of help you need."
+    },
+    {
+      "name": "RSVP Center (Relationship & Sexual Violence Prevention)",
+      "location": "G202 MU Student Center",
+      "hours": "Mon–Fri 8am–5pm | Crisis support: 24/7 via main line",
+      "phone": "573-882-6601",
+      "url": "https://rsvp.missouri.edu",
+      "notes": "Confidential support for students affected by sexual assault, relationship violence, or stalking. Services include case management, advocacy, educational events, and consultation. All services are free for MU students."
+    },
+    {
+      "name": "MizzouRec (Student Recreation Complex)",
+      "location": "1 Rollins Field (800 Hitt St.), Columbia, MO 65211",
+      "hours": "Mon–Thu 6am–11pm | Fri 6am–9pm | Sat–Sun 9am–8pm",
+      "phone": "573-882-7529",
+      "url": "https://recreation.missouri.edu",
+      "notes": "Full fitness facility included with student fees — no extra cost. Features cardio and weight rooms, indoor pools, a climbing wall, basketball and racquetball courts, group fitness classes, intramural leagues, and outdoor equipment rentals."
+    },
+    {
+      "name": "24/7 Crisis Line (Counseling Center)",
+      "location": "Phone / Remote",
+      "hours": "24/7",
+      "phone": "573-882-6601",
+      "url": "https://wellbeing.missouri.edu/mental-health-services/",
+      "notes": "Call any time and ask to speak with the on-call counselor for immediate crisis support. Always call 911 in a life-threatening emergency."
+    },
+    {
+      "name": "Crisis Text Line (National)",
+      "location": "Nationwide — text from anywhere",
+      "hours": "24/7",
+      "phone": "Text HOME to 741741",
+      "url": "https://crisistextline.org",
+      "notes": "Free, confidential crisis support via text message. Available 24/7. A good option if you need help but aren't able to make a phone call."
+    }
+  ]
+}

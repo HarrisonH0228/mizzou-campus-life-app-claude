@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% block title %}Mizzou Campus Life{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
+  {% block extra_css %}{% endblock %}
+</head>
+<body>
+  <nav class="navbar">
+    <a class="nav-brand" href="{{ url_for('main.index') }}">
+      <img src="{{ url_for('static', filename='images/mizzou-logo.png') }}" alt="Mizzou" class="nav-logo" />
+      Mizzou Campus Life
+    </a>
+    <ul class="nav-links">
+      <li><a href="{{ url_for('categories.dining') }}">Dining</a></li>
+      <li><a href="{{ url_for('categories.housing') }}">Housing</a></li>
+      <li><a href="{{ url_for('categories.transportation') }}">Transportation</a></li>
+      <li><a href="{{ url_for('categories.academics') }}">Academics</a></li>
+      <li><a href="{{ url_for('categories.student_orgs') }}">Student Orgs</a></li>
+      <li><a href="{{ url_for('categories.events') }}">Events</a></li>
+      <li><a href="{{ url_for('categories.health') }}">Health</a></li>
+      <li><a href="{{ url_for('map.campus_map') }}">Map</a></li>
+      <li><a href="{{ url_for('chatbot.chatbot_page') }}" class="nav-chat">Ask Claude</a></li>
+    </ul>
+  </nav>
+
+  <main class="main-content">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="footer">
+    <p>Mizzou Campus Life Guide &mdash; Built with Flask &amp; Claude AI</p>
+  </footer>
+
+  {% block extra_js %}{% endblock %}
+</body>
+</html>

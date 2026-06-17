@@ -1,0 +1,62 @@
+{
+  "last_updated": "2026-06-17",
+  "source": "https://getinvolved.missouri.edu/welcome-week/",
+  "items": [
+    {
+      "name": "Tiger Walk",
+      "description": "The most iconic Mizzou tradition. Incoming freshmen walk through the historic Columns toward Jesse Hall to officially begin their time at Mizzou. Marching Mizzou plays, the university president welcomes the new class, and returning students line the path to cheer. Seniors reverse the walk at Senior Sendoff in May.",
+      "frequency": "Annually — Welcome Week (Fall 2025: August 23, 6–7pm)",
+      "location": "Francis Quadrangle (The Columns)",
+      "url": "https://missouri.edu/about/traditions"
+    },
+    {
+      "name": "Welcome Week",
+      "description": "Five days of events welcoming new students to campus. Fall 2025 events included: Sweet Start at the Zou (ice cream social), First Roar (kickoff pep event at Southwest Lawn), Paint the M at Memorial Stadium, MizzouRec Fest, Midnight BBQ on Rollins Street, Flick on Francis (outdoor movie — Shrek on Francis Quad), Shakespeare's Pizza Party, and Tiger Walk.",
+      "frequency": "Annually — the week before fall classes begin (Fall 2025: August 19–23)",
+      "location": "Various campus locations",
+      "url": "https://getinvolved.missouri.edu/welcome-week/"
+    },
+    {
+      "name": "Homecoming",
+      "description": "Mizzou invented Homecoming in 1911 — it's the nation's first and still one of the largest. Week-long celebration includes a talent show, spirit rally at Traditions Plaza, and the Saturday parade through downtown Columbia followed by a home football game. Students also run the nation's largest homecoming blood drive (5,000+ units) and food drive (170,000+ lbs).",
+      "frequency": "Annually in fall semester (Fall 2025: parade September 27, game vs. UMass — Tigers won 42–6)",
+      "location": "Campus-wide and downtown Columbia",
+      "url": "https://homecoming.missouri.edu"
+    },
+    {
+      "name": "Painting the Rock M",
+      "description": "An annual Welcome Week tradition dating back to 1927. Freshmen paint a 90×95-foot 'M' made of leftover construction boulders. One of the most unique and photogenic traditions on campus.",
+      "frequency": "Annually — Welcome Week (Fall 2025: August 21, 3–5pm)",
+      "location": "Memorial Stadium area",
+      "url": "https://missouri.edu/about/traditions"
+    },
+    {
+      "name": "MU Tigers Football",
+      "description": "Home football games at Faurot Field / Memorial Stadium. The student section (Antlers) creates one of the loudest atmospheres in the SEC. Show your student ID for free or discounted student tickets. The 'MIZ-ZOU' chant echoes throughout every game.",
+      "frequency": "Select Saturdays throughout fall semester",
+      "location": "Memorial Stadium, Stadium Blvd.",
+      "url": "https://mutigers.com"
+    },
+    {
+      "name": "Involvement Week",
+      "description": "Held each semester, this is the best time to discover the 589+ student organizations on campus. Think of it as a sampler platter of everything Mizzou has to offer. Involvement Ambassadors are on hand to help match you with groups that fit your interests.",
+      "frequency": "Beginning of fall and spring semesters",
+      "location": "MU Student Center and campus common areas",
+      "url": "https://getinvolved.missouri.edu"
+    },
+    {
+      "name": "Rub Francis's Nose",
+      "description": "According to Mizzou legend, rubbing the nose of the bronze statue of David R. Francis (former MU president and Missouri governor) brings good luck on exams. The nose is noticeably shinier than the rest of the statue.",
+      "frequency": "Anytime — especially before finals",
+      "location": "Northeast of Jesse Hall entrance, Francis Quadrangle",
+      "url": "https://missouri.edu/about/traditions"
+    },
+    {
+      "name": "Mizzou Farmers Market",
+      "description": "Local vendors sell fresh produce, baked goods, crafts, and plants on campus. A great way to support local Columbia businesses and pick up fresh food between classes.",
+      "frequency": "Thursdays during spring through fall",
+      "location": "Lowry Mall",
+      "url": "https://calendar.missouri.edu"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Health Services — Mizzou Campus Life{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <h1>Health Services</h1>
+  <p>MU Health Center, Counseling Center, pharmacy, and more.</p>
+</div>
+
+<div class="card-grid">
+  {% for item in data['items'] %}
+  <div class="card info-card">
+    <h3>{{ item.name }}</h3>
+    <p class="location">{{ item.location }}</p>
+    <p><strong>Hours:</strong> {{ item.hours }}</p>
+    <p><strong>Phone:</strong> <a href="tel:{{ item.phone }}">{{ item.phone }}</a></p>
+    {% if item.url %}
+    <a href="{{ item.url }}" target="_blank" rel="noopener">Visit portal &rarr;</a>
+    {% endif %}
+    {% if item.notes %}
+    <p class="notes">{{ item.notes }}</p>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
+
+<p class="data-source">Source: <a href="{{ data.source }}" target="_blank" rel="noopener">{{ data.source }}</a> &mdash; Last updated {{ data.last_updated }}</p>
+{% endblock %}

@@ -1,0 +1,62 @@
+{
+  "last_updated": "2026-06-17",
+  "source": "https://getinvolved.missouri.edu",
+  "items": [
+    {
+      "name": "How to Find Organizations",
+      "category": "Getting Started",
+      "description": "Mizzou has 589+ recognized student organizations (RSOs), plus 70 Fraternity & Sorority Life chapters, 42 MizzouRec groups, and 89 Mizzou Life groups. Browse and join through the Engage platform at engage.missouri.edu.",
+      "how_to_join": "Visit engage.missouri.edu or download the Engage app. Attend Involvement Week at the start of each semester. Involvement Ambassadors offer free 30-minute consultations — email involveambass@missouri.edu.",
+      "url": "https://engage.missouri.edu"
+    },
+    {
+      "name": "Center for Student Involvement (CSI)",
+      "category": "Resource",
+      "description": "The hub for student org support on campus. Houses offices for Fraternity & Sorority Life, campus activities, student governments, leadership development, service opportunities, and the Student Design Center.",
+      "how_to_join": "Walk in — open to all students. Located on the 2nd floor of the MU Student Center.",
+      "url": "https://getinvolved.missouri.edu"
+    },
+    {
+      "name": "Student Government Association (SGA)",
+      "category": "Government",
+      "description": "The official voice of MU students to university administration. Advocates for student needs, allocates funding to RSOs, and works on campus policy. One of the most influential student organizations on campus.",
+      "how_to_join": "Run for elected positions each spring, or apply for appointed committee roles. Watch for applications at the start of each semester.",
+      "url": "https://muinvolve.missouri.edu"
+    },
+    {
+      "name": "Fraternity & Sorority Life",
+      "category": "Greek Life",
+      "description": "Mizzou has 70 chapters across Panhellenic, IFC, NPHC, and Multicultural Greek councils. Greek life is a major part of MU's social fabric, with chapters involved in philanthropy, academics, and campus leadership.",
+      "how_to_join": "Formal recruitment (Rush) happens at the start of fall and spring semesters. Visit getinvolved.missouri.edu/fsl for recruitment timelines.",
+      "url": "https://getinvolved.missouri.edu/fsl/"
+    },
+    {
+      "name": "Mizzou Alternative Breaks (MAB)",
+      "category": "Service",
+      "description": "Organizes week-long service immersion trips during university breaks to communities in need across the country. One of the most impactful service organizations on campus.",
+      "how_to_join": "Apply in early fall semester. Limited spots per trip — apply early.",
+      "url": "https://muinvolve.missouri.edu"
+    },
+    {
+      "name": "Intramural Sports (MizzouRec)",
+      "category": "Recreation",
+      "description": "Competitive and recreational leagues for basketball, soccer, volleyball, flag football, tennis, and more. 42 MizzouRec groups serve students at all skill levels. Free to participate with student fees.",
+      "how_to_join": "Register a team or sign up as a free agent at recreation.missouri.edu at the start of each semester.",
+      "url": "https://recreation.missouri.edu"
+    },
+    {
+      "name": "Community & Cultural Centers",
+      "category": "Identity & Culture",
+      "description": "Mizzou operates four dedicated community centers: the Gaines/Oldham Black Culture Center, LGBTQ Resource Center, Multicultural Center, and Women's Center. Each hosts programming, events, and support resources year-round.",
+      "how_to_join": "All centers are open to every student. Stop by, attend events, or get involved with student advisory boards.",
+      "url": "https://getinvolved.missouri.edu"
+    },
+    {
+      "name": "Missouri Students Association (MSA) Media",
+      "category": "Media & Journalism",
+      "description": "The journalism school's student media empire includes KBIA (NPR affiliate), KOMU-TV (NBC affiliate), the Columbia Missourian newspaper, and Vox Magazine. Mizzou is one of the only universities where students run real professional outlets.",
+      "how_to_join": "Apply through the Missouri School of Journalism or check each outlet's website for open positions and auditions.",
+      "url": "https://journalism.missouri.edu"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}Ask Claude — Mizzou Campus Life{% endblock %}
+{% block extra_css %}
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/chatbot.css') }}" />
+{% endblock %}
+
+{% block content %}
+<div class="chat-container">
+  <h1>Ask the Campus Guide</h1>
+  <p class="chat-subtitle">Ask anything about Mizzou campus life — dining, housing, academics, events, and more.</p>
+
+  <div class="chat-thread" id="chat-thread">
+    <div class="message assistant">
+      <span class="bubble">Hi! I'm your Mizzou campus guide. What would you like to know?</span>
+    </div>
+  </div>
+
+  <form class="chat-form" id="chat-form">
+    <input
+      type="text"
+      id="chat-input"
+      class="chat-input"
+      placeholder="Type your question..."
+      autocomplete="off"
+      required
+    />
+    <button type="submit" class="btn-primary">Send</button>
+  </form>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+  <script src="https://cdn.jsdelivr.net/npm/marked@15.0.12/marked.min.js" integrity="sha384-948ahk4ZmxYVYOc+rxN1H2gM1EJ2Duhp7uHtZ4WSLkV4Vtx5MUqnV+l7u9B+jFv+" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.4.11/dist/purify.min.js" integrity="sha384-o44XUELLEnv/iSlA1NWxBweqbD4TSR0qgq2VzVsxtkHS989JJjGKSE9vkfo5MN4K" crossorigin="anonymous"></script>
+  <script src="{{ url_for('static', filename='js/chatbot.js') }}"></script>
+{% endblock %}

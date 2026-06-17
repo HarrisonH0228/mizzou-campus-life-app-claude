@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block title %}Home — Mizzou Campus Life{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <img src="{{ url_for('static', filename='images/campus-hero.jpg') }}" alt="Mizzou Campus" class="hero-image" />
+  <div class="hero-text">
+    <h1>Welcome to Mizzou</h1>
+    <p>Your guide to campus life at the University of Missouri.</p>
+    <a href="{{ url_for('chatbot.chatbot_page') }}" class="btn-primary">Ask a Question</a>
+  </div>
+</section>
+
+<section class="categories">
+  <h2>Explore Campus Life</h2>
+  <div class="card-grid">
+    <a class="card" href="{{ url_for('categories.dining') }}">
+      <h3>Dining</h3>
+      <p>Dining halls, hours, and meal plan info.</p>
+    </a>
+    <a class="card" href="{{ url_for('categories.housing') }}">
+      <h3>Housing</h3>
+      <p>Residence halls, amenities, and move-in tips.</p>
+    </a>
+    <a class="card" href="{{ url_for('categories.transportation') }}">
+      <h3>Transportation</h3>
+      <p>Bus routes, Tiger Line, and parking.</p>
+    </a>
+    <a class="card" href="{{ url_for('categories.academics') }}">
+      <h3>Academics</h3>
+      <p>Registration, advising, and key dates.</p>
+    </a>
+    <a class="card" href="{{ url_for('categories.student_orgs') }}">
+      <h3>Student Orgs</h3>
+      <p>Registered student organizations and how to join.</p>
+    </a>
+    <a class="card" href="{{ url_for('categories.events') }}">
+      <h3>Events</h3>
+      <p>Recurring campus events and where to find more.</p>
+    </a>
+    <a class="card" href="{{ url_for('categories.health') }}">
+      <h3>Health Services</h3>
+      <p>Health center, counseling, and pharmacy.</p>
+    </a>
+    <a class="card" href="{{ url_for('map.campus_map') }}">
+      <h3>Campus Map</h3>
+      <p>Find buildings, landmarks, and directions.</p>
+    </a>
+  </div>
+</section>
+
+<section class="chatbot-teaser">
+  <h2>Can't find what you need?</h2>
+  <p>Ask the Mizzou Campus Life assistant — powered by Claude AI.</p>
+  <a href="{{ url_for('chatbot.chatbot_page') }}" class="btn-primary">Open Chatbot</a>
+</section>
+{% endblock %}

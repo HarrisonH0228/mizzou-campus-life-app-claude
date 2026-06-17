@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Housing — Mizzou Campus Life{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <h1>Housing</h1>
+  <p>Residence halls, amenities, and move-in tips.</p>
+</div>
+
+<div class="card-grid">
+  {% for item in data['items'] %}
+  <div class="card info-card">
+    <h3>{{ item.name }}</h3>
+    <span class="badge">{{ item.area }}</span>
+    <p class="location">{{ item.address }}</p>
+    <ul class="amenity-list">
+      {% for amenity in item.amenities %}
+      <li>{{ amenity }}</li>
+      {% endfor %}
+    </ul>
+    {% if item.notes %}
+    <p class="notes">{{ item.notes }}</p>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
+
+<p class="data-source">Source: <a href="{{ data.source }}" target="_blank" rel="noopener">{{ data.source }}</a> &mdash; Last updated {{ data.last_updated }}</p>
+{% endblock %}

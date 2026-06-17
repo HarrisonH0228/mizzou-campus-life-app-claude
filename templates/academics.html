@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Academics — Mizzou Campus Life{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <h1>Academics</h1>
+  <p>Registration deadlines, advising contacts, and key academic tools.</p>
+</div>
+
+<div class="card-grid">
+  {% for item in data['items'] %}
+  <div class="card info-card">
+    <h3>{{ item.title }}</h3>
+    <p>{{ item.description }}</p>
+    {% if item.date %}
+    <p><strong>Date:</strong> {{ item.date }}</p>
+    {% endif %}
+    {% if item.url %}
+    <a href="{{ item.url }}" target="_blank" rel="noopener">Visit &rarr;</a>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
+
+<p class="data-source">Source: <a href="{{ data.source }}" target="_blank" rel="noopener">{{ data.source }}</a> &mdash; Last updated {{ data.last_updated }}</p>
+{% endblock %}

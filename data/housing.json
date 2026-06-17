@@ -1,0 +1,62 @@
+{
+  "last_updated": "2026-06-17",
+  "source": "https://housing.missouri.edu",
+  "items": [
+    {
+      "name": "Mark Twain Hall",
+      "area": "Park View",
+      "address": "515 S. 5th St., Columbia, MO 65201",
+      "amenities": ["In-building dining (The MARK on 5th Street)", "Suite-style rooms", "Free in-hall laundry", "Music practice room", "Community kitchens", "Study lounges", "Outdoor courtyard", "24/7 on-call staff"],
+      "notes": "Located near Peace Park, the College of Engineering, and the Missouri School of Journalism. One of the most popular freshman halls. The MARK on 5th Street all-you-care-to-eat dining hall is in the building."
+    },
+    {
+      "name": "Wolpers Hall",
+      "area": "Truman Central",
+      "address": "800 Hitt St., Columbia, MO 65201",
+      "amenities": ["Community-style rooms", "Free in-hall laundry", "Study lounges", "Music practice room", "Community kitchens", "Outdoor courtyard", "Air conditioning", "Elevator", "24/7 on-call staff"],
+      "notes": "Located directly across from MizzouRec with immediate access to the MU Student Center and Student Health Center. Central campus location makes it easy to walk everywhere. Named after former Board of Curators president John Wolpers."
+    },
+    {
+      "name": "Johnston Hall",
+      "area": "Truman Central",
+      "address": "1100 E. Rollins St., Columbia, MO 65201",
+      "amenities": ["Women-only residence hall", "Community-style and triple rooms", "Free in-hall laundry", "Music practice room", "Community kitchens", "Study lounges", "Elevator", "Outdoor courtyard", "24/7 on-call staff"],
+      "notes": "Women-only hall right in the heart of campus, close to MizzouRec, the MU Student Center, and the Student Health Center. Named after Eva Johnston, the university's first dean of women students. Savor Kitchen allergen-free restaurant is in the building."
+    },
+    {
+      "name": "North Hall",
+      "area": "Southwest Village",
+      "address": "400 Kentucky Blvd., Columbia, MO 65201",
+      "amenities": ["Suite-style rooms (4-person)", "Free in-hall laundry", "Music practice room with piano", "Community kitchens", "Recreation lawn", "Outdoor courtyard", "Vending machines", "Electronic room access", "Open during academic breaks"],
+      "notes": "Suite-style rooms near Faurot Field (Memorial Stadium) and Greek Town. Convenient access to the Southwest dining hall (Restaurants at Southwest). Great for students who want a social atmosphere near the stadium."
+    },
+    {
+      "name": "Center Hall",
+      "area": "Southwest Village",
+      "address": "402 Kentucky Blvd., Columbia, MO 65201",
+      "amenities": ["Women-only residence hall", "Suite-style rooms (4-person)", "Free in-hall laundry", "Gaming lounge", "Music practice room with piano", "Community kitchens", "Outdoor courtyard", "Electronic room access"],
+      "notes": "Women-only suite-style hall located near Faurot Field and Greek Town. Suite-mates share a full restroom. Close to the Restaurants at Southwest dining hall. Open during academic breaks."
+    },
+    {
+      "name": "Lucile Bluford Hall",
+      "area": "Southwest Village",
+      "address": "502 Kentucky Blvd., Columbia, MO 65201",
+      "amenities": ["Community and suite-style rooms", "Free in-hall laundry", "Music practice room with piano", "Community kitchens", "Study lounges", "Outdoor courtyard", "Electronic room access"],
+      "notes": "Named to honor Lucile Bluford, renowned journalist and publisher of the Kansas City Call. Community and suite-style rooms available. Located near Faurot Field, Greek Town, and the Southwest dining hall."
+    },
+    {
+      "name": "College Avenue Hall",
+      "area": "College Crossing",
+      "address": "1300 E. Rollins St., Columbia, MO 65201",
+      "amenities": ["Suite-style rooms (4-person)", "Free in-hall laundry", "Music practice room with piano", "Community kitchens", "Study lounges", "Recreation lawn", "Electronic room access", "Open year-round"],
+      "notes": "Overlooks the historic Dairy Lawn. Easy access to the College of Veterinary Medicine and Buck's Ice Cream. Suite-mates share a full restroom. Open during academic breaks."
+    },
+    {
+      "name": "Mizzou at U Centre",
+      "area": "Park View",
+      "address": "1201 University Ave., Columbia, MO 65201",
+      "amenities": ["Apartment-style living", "Private bedrooms", "Full kitchen", "In-unit washer/dryer", "Fitness center", "Study rooms"],
+      "notes": "Apartment-style housing reserved for upperclassmen. Features private bedrooms and a full kitchen — a step up from traditional dorm living. Ideal for juniors and seniors who want more independence."
+    }
+  ]
+}

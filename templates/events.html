@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Events — Mizzou Campus Life{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <h1>Campus Events</h1>
+  <p>Recurring events and where to find more on campus.</p>
+</div>
+
+<div class="card-grid">
+  {% for item in data['items'] %}
+  <div class="card info-card">
+    <h3>{{ item.name }}</h3>
+    <p>{{ item.description }}</p>
+    {% if item.frequency %}
+    <p><strong>Frequency:</strong> {{ item.frequency }}</p>
+    {% endif %}
+    {% if item.location %}
+    <p><strong>Location:</strong> {{ item.location }}</p>
+    {% endif %}
+    {% if item.url %}
+    <a href="{{ item.url }}" target="_blank" rel="noopener">More info &rarr;</a>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
+
+<p class="data-source">Source: <a href="{{ data.source }}" target="_blank" rel="noopener">{{ data.source }}</a> &mdash; Last updated {{ data.last_updated }}</p>
+{% endblock %}

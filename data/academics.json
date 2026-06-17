@@ -1,0 +1,96 @@
+{
+  "last_updated": "2026-06-17",
+  "source": "https://registrar.missouri.edu/academic-calendar/",
+  "items": [
+    {
+      "title": "Fall 2025: First Day of Classes",
+      "description": "Classwork begins at 8:00 a.m. This is the official start of the Fall 2025 semester.",
+      "date": "Monday, August 25, 2025",
+      "url": "https://registrar.missouri.edu/academic-calendar/"
+    },
+    {
+      "title": "Fall 2025: Labor Day Holiday",
+      "description": "No classes. University is closed in observance of Labor Day.",
+      "date": "Monday, September 1, 2025",
+      "url": "https://registrar.missouri.edu/academic-calendar/"
+    },
+    {
+      "title": "Fall 2025: Thanksgiving Recess Begins",
+      "description": "Recess begins at close of day (includes evening classes). Classes resume Monday, December 1.",
+      "date": "Saturday, November 22, 2025",
+      "url": "https://registrar.missouri.edu/academic-calendar/"
+    },
+    {
+      "title": "Fall 2025: Last Day of Classes",
+      "description": "Classwork ends at close of day. Reading Day follows on Friday, December 12 — no classes or exams.",
+      "date": "Thursday, December 11, 2025",
+      "url": "https://registrar.missouri.edu/academic-calendar/"
+    },
+    {
+      "title": "Fall 2025: Final Exams",
+      "description": "Final examinations period. Semester officially closes Friday, December 19.",
+      "date": "December 15–19, 2025",
+      "url": "https://registrar.missouri.edu/academic-calendar/"
+    },
+    {
+      "title": "Fall 2025: Commencement",
+      "description": "Graduation ceremonies for Fall 2025 degree candidates.",
+      "date": "December 19–21, 2025 (Fri–Sun)",
+      "url": "https://commencement.missouri.edu"
+    },
+    {
+      "title": "Spring 2026: First Day of Classes",
+      "description": "Classwork begins at 8:00 a.m. Note: MLK Holiday is January 19 — no classes that day.",
+      "date": "Tuesday, January 20, 2026",
+      "url": "https://registrar.missouri.edu/academic-calendar/"
+    },
+    {
+      "title": "Spring 2026: Spring Recess",
+      "description": "Recess begins at close of day March 21. Classes resume Monday, March 30.",
+      "date": "March 21 – March 29, 2026",
+      "url": "https://registrar.missouri.edu/academic-calendar/"
+    },
+    {
+      "title": "Spring 2026: Last Day of Classes",
+      "description": "Classwork ends at close of day. Reading Day is Friday, May 8 — no classes or exams.",
+      "date": "Thursday, May 7, 2026",
+      "url": "https://registrar.missouri.edu/academic-calendar/"
+    },
+    {
+      "title": "Spring 2026: Final Exams",
+      "description": "Final examinations period. Semester officially closes Friday, May 15.",
+      "date": "May 11–15, 2026",
+      "url": "https://registrar.missouri.edu/academic-calendar/"
+    },
+    {
+      "title": "Spring 2026: Commencement",
+      "description": "Graduation ceremonies for Spring 2026 degree candidates.",
+      "date": "May 15–17, 2026 (Fri–Sun)",
+      "url": "https://commencement.missouri.edu"
+    },
+    {
+      "title": "myZou Student Portal",
+      "description": "Register for classes, pay tuition, view your transcript, accept financial aid, and manage your student account.",
+      "date": null,
+      "url": "https://myzou.missouri.edu"
+    },
+    {
+      "title": "Canvas Learning Management System",
+      "description": "All course syllabi, assignments, grades, and announcements are posted here by professors.",
+      "date": null,
+      "url": "https://missouri.instructure.com"
+    },
+    {
+      "title": "Academic Advising",
+      "description": "Each college has its own advising office. Schedule appointments through Navigate360. Advisors help with degree planning, registration, and declaring a major.",
+      "date": null,
+      "url": "https://advising.missouri.edu"
+    },
+    {
+      "title": "Add/Drop & Withdrawal Deadlines",
+      "description": "Specific add/drop and withdrawal deadlines vary by course length. After the drop deadline a 'W' appears on your transcript. Check the full Dates & Deadlines document for exact dates.",
+      "date": null,
+      "url": "https://registrar.missouri.edu/academic-calendar/"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}{{ code }} Error — Mizzou Campus Life{% endblock %}
+
+{% block content %}
+<div class="error-page">
+  <h1>{{ code }}</h1>
+  <p>{{ message }}</p>
+  <a href="{{ url_for('main.index') }}" class="btn-primary">Back to Home</a>
+</div>
+{% endblock %}

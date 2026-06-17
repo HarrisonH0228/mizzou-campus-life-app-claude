@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}Dining — Mizzou Campus Life{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <h1>Dining</h1>
+  <p>Dining halls, food halls, restaurants, cafes, and markets on campus.</p>
+</div>
+
+{% if data.hours_notice %}
+<div class="notice">{{ data.hours_notice }}</div>
+{% endif %}
+
+<div class="card-grid">
+  {% for item in data['items'] %}
+  <div class="card info-card">
+    <span class="badge">{{ item.type }}</span>
+    <h3>{{ item.name }}</h3>
+    <p class="location">{{ item.location }}</p>
+    <p class="hours"><strong>Hours:</strong> {{ item.hours }}</p>
+    {% if item.meal_plan %}
+    <span class="badge badge-green">Mizzou Meals Accepted</span>
+    {% endif %}
+    {% if item.notes %}
+    <p class="notes">{{ item.notes }}</p>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
+
+<p class="data-source">Source: <a href="{{ data.source }}" target="_blank" rel="noopener">dining.missouri.edu</a> &mdash; Last updated {{ data.last_updated }}</p>
+{% endblock %}

@@ -19,6 +19,8 @@ def chat():
 
     user_message = body["message"].strip()
     history = body.get("history", [])
+    if not isinstance(history, list):
+        history = []
 
     if not user_message:
         return jsonify({"error": "Message cannot be empty."}), 400

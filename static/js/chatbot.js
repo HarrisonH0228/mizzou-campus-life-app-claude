@@ -3,6 +3,7 @@ const input = document.getElementById("chat-input");
 const thread = document.getElementById("chat-thread");
 
 let history = [];
+const HISTORY_LIMIT = 40; // keep last 20 exchanges (40 messages)
 
 function appendMessage(role, text, isTyping = false) {
   const msg = document.createElement("div");
@@ -48,6 +49,9 @@ form.addEventListener("submit", async (e) => {
 
     history.push({ role: "user", content: userText });
     history.push({ role: "assistant", content: data.reply });
+    if (history.length > HISTORY_LIMIT) {
+      history = history.slice(history.length - HISTORY_LIMIT);
+    }
   } catch (err) {
     typingBubble.textContent = "Sorry, something went wrong. Please try again.";
     typingBubble.classList.remove("typing");

@@ -9,6 +9,17 @@ SYSTEM_PROMPT = (
     "If you don't know something specific, suggest where the student might find the answer."
 )
 
+_client: anthropic.Anthropic | None = None
+
+
+def _get_client() -> anthropic.Anthropic:
+    """Return the shared Anthropic client, creating it once per process."""
+    global _client
+    if _client is None:
+        api_key = current_app.config.get("ANTHROPIC_API_KEY", "")
+        _client = anthropic.Anthropic(api_key=api_key)
+    return _client
+
 
 def get_reply(user_message, history):
     """Send user_message with conversation history to Claude and return the assistant reply string."""
@@ -16,8 +27,7 @@ def get_reply(user_message, history):
     if not api_key:
         return "Chatbot is not configured — please set ANTHROPIC_API_KEY in your .env file."
 
-    client = anthropic.Anthropic(api_key=api_key)
-
+    client = _get_client()
     messages = list(history) + [{"role": "user", "content": user_message}]
 
     try:
@@ -27,6 +37,8 @@ def get_reply(user_message, history):
             system=SYSTEM_PROMPT,
             messages=messages,
         )
+        if not response.content:
+            return "The assistant returned an empty response. Please try again."
         return response.content[0].text
     except anthropic.APIConnectionError:
         return "Could not reach the Claude API — please check your internet connection and try again."
